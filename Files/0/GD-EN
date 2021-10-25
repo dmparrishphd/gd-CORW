@@ -1,45 +1,48 @@
-Introduction
-============
+Introduction to the DRAFT gd specification (English)
+====================================================
 
-                GD is a permissive syntax for typesetting human-
+                gd is a permissive syntax for typesetting human-
                 readable text.
-                
-                GD is not Markdown [DFC].
-                
-                GD is WYSIWYG. There are no "tags,"
-                "metacharacters," etc. A GD interpreter simply
-                sends the GD text onto a display device. The
+
+                gd is not Markdown [DFC].
+
+                gd is WYSIWYG. There are no "tags,"
+                "metacharacters," etc. A gd interpreter simply
+                sends the gd text onto a display device. The
                 GNU program cat, invoked with defaults, is a
-                GD interpreter.
+                gd interpreter.
+
+                The remainder of this document is a DRAFT
+                specification for gd.
 
 Character Set
 -------------
 
     Text
-    
-                A GD text is a sequence of lines.
-                
+
+                A gd text is a sequence of lines.
+
     End-of-Line Marker
-                
+
                 A line ends in an end-of-line marker. The end-
                 of-line marker is invisible. All end-of-line
                 markers in a given GD text should be identical.
-                
+
     Line Length
 
                 The line length of a given line is the number of
                 visible characters preceding the end-of-line
                 marker.
-                
+
                 Line length should not exceed 78.
-                
+
     Visible Characters
 
                 Only visible characters or no characters may
                 precede each end-of-line marker.
-                
+
         The Space Character
-                
+
                 The space character is visible only if it
                 occurs before the last graphic character on a
                 line.
@@ -60,20 +63,20 @@ Character Set
                 discussion on visible characters). End-of-line
                 markers include, but are not limited to code 10,
                 code 13, or code 13 followed by code 10.
-                
+
 Body Text
 ---------
 
                 Body text begins sixteen spaces from the
                 beginning of a line.
-                
+
 Headings (this is an example of an H2 heading)
 ----------------------------------------------
 
                 An H2 heading beings at the beginning of a line.
 
     This is an example of an H3 heading.
-    
+
                 An H3 heading begins four spaces from the
                 beginning of a line.
 
@@ -81,24 +84,24 @@ Headings (this is an example of an H2 heading)
 
                 An H4 heading begins eight spaces from the
                 beginning of a line.
-        
+
             This is an example of an H5 heading.
-            
+
                 An H5 heading begins twelve spaces from the
                 beginning of a line.
 
                 This is an example of an H6 heading.
-        
+
                 An H6 heading begins sixteen spaces from the
                 beginning of a line.
-                
+
                 ANOTHER H6 HEADING
-                
+
                 An H6 heading might be easier to distinguish
                 from body text if it looks different somehow.
 
 References
 ----------
-################
+
                 [DFC] The Daring Fireball Company (2021) Markdown.
                 https://daringfireball.net/projects/markdown/
