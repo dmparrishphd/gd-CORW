@@ -1,0 +1,24 @@
+Have Markdown Implementations Lost Their Way?
+=============================================
+
+                Usage of Markdown can be complex. But this would
+                violate a core principle of Markdown. To quote
+                the creator [1]:
+                
+                        "The overriding design goal for
+                        "Markdown's formatting syntax is to make
+                        "it as readable as possible. The idea is
+                        "that a Markdown-formatted document
+                        "should be publishable as-is, as plain
+                        "text, without looking like it’s been
+                        "marked up with tags or formatting
+                        "instructions."
+                        
+                Compare a Markdown file with the above quote.
+                How does it stand up?
+
+References
+----------
+
+                [1] Gruber J (downloaded 2022-04-14) "Markdown"
+                https://daringfireball.net/projects/markdown/
